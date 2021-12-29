@@ -50,11 +50,22 @@ img{
     font-size: 36px;
     font-weight: 800;
 }
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:120px;
+
+}
 blockquote
 {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
+    color:#1f2937;
+    margin-left: 400px;
+    width:850px;
     color:#1f2937;
 }
 body{
@@ -102,4 +113,38 @@ body{
 .middle p{
     width:250px;
     text-align: center;
+}
+.cite{
+    margin-top:330px;
+    font-weight: 700;
+    margin-right: 200px;
+    text-align: center;
+}
+.bottom{
+    margin-top:70px;
+    margin-bottom: 70px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding:80px;
+    border-style: solid;
+    background-color: #3882f6;
+    display: flex;
+    color:white;
+    border-radius: 25px;
+    justify-content: space-between;
+}
+.bottom button{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    height:60px;
+    font-size: 18px;
+    font-weight: 700;
+    width:200px;
+}
+.bottom p{
+    font-size: 18px;
+}
+.footer{
+    display: flex;
 }
