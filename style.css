@@ -20,9 +20,12 @@
 
 }
 a{
+    text-decoration: none;
+    color:lightblue;
     margin-right: 120px;
 }
 .right-links{
+    margin-top:10px;
     padding:5px;
 }
 .hero{
@@ -31,7 +34,7 @@ a{
 .subhero{
     margin-top:-20px;
 }
-button{
+.button{
     background-color: #3882F6;
     color:white;
     width: 100px;
@@ -39,12 +42,16 @@ button{
     padding:10px;
     border-radius: 5%;
     border-style: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
 }
 img{
     width:650px;
     height: auto;
     padding: 30px;
     margin-top: 50px;
+    border-radius: 50px;
 }
 .info{
     font-size: 36px;
@@ -153,4 +160,7 @@ body{
     font-size: 12px;
     padding:10px;
     align-items: center;
+}
+button:hover{
+    cursor:pointer;
 }
